@@ -1,0 +1,15 @@
+{
+  "name": "webgme_cleanup",
+  "version": "0.1.0",
+  "description": "Removes unused data from a WebGME Mongodb collection",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "ksmyth",
+  "license": "",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "mongodb": "^1.4.28",
+    "q": "^1.1.2"
+  }
+}
