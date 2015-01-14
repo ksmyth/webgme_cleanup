@@ -72,7 +72,7 @@ var future = Q.nfcall(mongodb.MongoClient.connect, connstr)
         var ret = [];
         for (var i = 0; i < branches.length; i++) {
             if (commits[i]) {
-                console.dir(commits[i])
+                //console.dir(commits[i])
                 commit_hashes[commits[i]._id] = 1;
                 all_hashes[commits[i]._id] = 1;
                 ret.push(commits[i].root)
