@@ -6,6 +6,6 @@ Make a backup of your Mongodb database:
 
     mongodump
 
-Run webgme_cleanup with --squash, which removes all commit history:  
+Run webgme_cleanup with `--squash`, which removes all commit history:  
 
-    node index.js --db CyPhy --collection WebGMECollectionName  --squash
+    node index.js --db CyPhy --collection WebGMEProjectName  --squash
